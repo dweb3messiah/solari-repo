@@ -76,7 +76,15 @@ function Appbar() {
               </NavLink>
             ))}
           </div>
-          <p className="text-white">Search bar</p>
+
+          <input
+            type="text"
+            // value={query}
+            // onFocus={() => setListVisible(true)}
+            // onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search..."
+            className="bg-[#2D2B26] w-[300px] text-shade1 placeholder:text-shade1 placeholder:text-sm text-lg px-3 h-[45px] rounded-[21px] focus:outline-none"
+          />
         </div>
       </div>
     </div>

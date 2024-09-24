@@ -24,3 +24,21 @@ export const post = [
     messageCount: "30",
   },
 ];
+
+export const communities = [
+  {
+    name: "BackPack",
+    time: "10 mins Ago",
+    desc: "Check out the Top gainers in the MARKET",
+  },
+  {
+    name: "Superteam Nig",
+    time: "3 hrs Ago",
+    desc: "lots of Gigs for designers on SUPERTEAM earn get paid as high as $1000 USD",
+  },
+  {
+    name: "Raydium",
+    time: "10 hrs Ago",
+    desc: "SOL-USDC has $3,147,609 Liquidity",
+  },
+];
