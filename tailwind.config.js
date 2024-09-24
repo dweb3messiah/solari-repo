@@ -39,6 +39,10 @@ export default {
         md: "8px",
         lg: "10px",
       },
+      backgroundImage: {
+        avatar_bg_gradient:
+          "linear-gradient(to right, #711ACCF2, #6A18C046, #390D66F2)",
+      },
     },
   },
   plugins: [

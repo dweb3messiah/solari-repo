@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 import Paths from "@/routes/paths";
 
@@ -44,6 +44,12 @@ const links = [
 ];
 
 function Appbar() {
+  const location = useLocation();
+
+  if (location.pathname === Paths.PROFILE) {
+    return null;
+  }
+
   const activeStyles = {
     color: "#511393",
   };

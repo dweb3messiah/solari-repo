@@ -17,6 +17,7 @@ const MarketPlace = lazy(() =>
 );
 const WorkPlace = lazy(() => import("@/pages/protected/work-space/WorkSpace"));
 const Specs = lazy(() => import("@/pages/protected/specs/Specs"));
+const Profile = lazy(() => import("@/pages/protected/profile/Profile"));
 
 const ProtectedRoute = () => {
   return (
@@ -34,6 +35,7 @@ const ProtectedRoute = () => {
           <Route path={Paths.MARKET_PLACE} element={<MarketPlace />} />
           <Route path={Paths.WORK_SPACE} element={<WorkPlace />} />
           <Route path={Paths.SPECS} element={<Specs />} />
+          <Route path={Paths.PROFILE} element={<Profile />} />
         </Routes>
       </Layout>
     </>

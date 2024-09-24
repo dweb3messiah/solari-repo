@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+import Paths from "@/routes/paths";
 
 import SuperTeam from "@/assets/svg/superteam.svg";
 import Raydium from "@/assets/svg/raydium.svg";
@@ -11,13 +14,13 @@ const AllCommunityCard = () => {
   return (
     <>
       <div className="text-white font-semibold pt-16">
-        <div className="flex items-center gap-2 text-xs">
+        <Link to={Paths.PROFILE} className="flex items-center gap-2 text-xs">
           <User className="rounded-full h-[50px] w-[50px]" />
           <div className="text-[12px]">
             <p className="mb-1">Sammy D</p>
             <p>@KOMBAT</p>
           </div>
-        </div>
+        </Link>
 
         <h2 className="text-xl pt-6 pb-4">All Communities</h2>
 
