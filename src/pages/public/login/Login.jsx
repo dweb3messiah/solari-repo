@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 
 import Paths from "@/routes/paths";
-import LoginForm from "@/components/ui/public/login/LoginForm";
+import LoginForm from "../../../components/ui/public/login/LoginForm";
 
 const Login = () => {
   return (
