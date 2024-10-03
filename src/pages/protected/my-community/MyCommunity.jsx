@@ -9,7 +9,7 @@ const MyCommunity = () => {
   return (
     <>
       <Helmet>
-        <title>TribeX | Feed</title>
+        <title>Solari | Feed</title>
         <meta name="description" content="" />
         <link rel="canonical" href={Paths.MY_COMMUNITY} />
       </Helmet>

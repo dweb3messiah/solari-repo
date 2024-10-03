@@ -13,7 +13,7 @@ const Profile = () => {
   return (
     <>
       <Helmet>
-        <title>Haem | Profile</title>
+        <title>Solari | Profile</title>
         <meta name="description" content="" />
         <link rel="canonical" href={Paths.PROFILE} />
       </Helmet>

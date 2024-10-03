@@ -8,7 +8,7 @@ const Login = () => {
   return (
     <>
       <Helmet>
-        <title>No Name | Login</title>
+        <title>Solari | Login</title>
         <meta name="description" content="" />
         <link rel="canonical" href={Paths.LOGIN} />
       </Helmet>

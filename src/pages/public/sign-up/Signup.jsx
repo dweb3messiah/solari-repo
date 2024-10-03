@@ -8,7 +8,7 @@ const Signup = () => {
   return (
     <>
       <Helmet>
-        <title>No Name | SignIn</title>
+        <title>Solari | SignIn</title>
         <meta name="description" content="" />
         <link rel="canonical" href={Paths.SIGNUP} />
       </Helmet>
